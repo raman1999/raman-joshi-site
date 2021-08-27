@@ -23,7 +23,9 @@ hr {
 .fluid-container {
     margin: 0rem 2rem;
 }
-
+#blogi{
+    background-color:  white;
+}
 
 .links {
     text-decoration: none;
@@ -99,7 +101,25 @@ hr {
     text-align: center;
 }
 
+.hero {
+    padding: 2rem;
+}
 
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
 /*  section  */
 
 .section {

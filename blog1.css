@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    
 }
 
 .container {
@@ -11,24 +12,37 @@ body {
     max-width:700px;
     margin: auto;
     padding-bottom: 10rem;
+    
 }
-
-#title{
-    font-size: 3rem;
+.header {
+    margin: auto;
+    color: var(--header-text);
     text-align: center;
 }
 
-#sub-title{
-    color: rgb(103, 103, 103);
+.hero {
+    padding: 2rem;
 }
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+
 
 p, em{
     font-size: 1.2rem;
 }
 
-h3{
-    font-size: 1.8rem;
-}
+
 
 #method-name{
     font-size: 1.5rem;
