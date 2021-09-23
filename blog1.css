@@ -2,38 +2,35 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    
+    background-color: rgb(255, 248, 240);
 }
 
 .container {
-    display: inline;
-    display:flex;
-    flex-direction: column;
+   
+    
     max-width:700px;
     margin: auto;
     padding-bottom: 10rem;
     
 }
-.header {
-    margin: auto;
-    color: var(--header-text);
-    text-align: center;
-}
+
 
 .hero {
     padding: 2rem;
 }
 
-.hero .hero-img {
+.hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading {
+.hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: #161010;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
@@ -43,16 +40,10 @@ p, em{
 }
 
 
-
-#method-name{
-    font-size: 1.5rem;
-    color: rgb(118, 118, 118);
-}
-
 #method{
     display: block;
-    width: auto;
-    background-color: rgb(255, 248, 240);
+    width:auto;
+    background-color: rgb(200,248,240);
     padding: 1rem;
     line-height: 140%;
 

@@ -178,7 +178,7 @@ ul {
 }
 
 
-.about-me-text h3 {
+.about-me-text h2 {
     font-size: 1.5rem;
     color: #020000;
     margin-bottom:0.5rem;
@@ -289,13 +289,8 @@ footer i {
         color: #1c3548;
         line-height: 1.3rem;
     }
-    .about-me-text h1 {
-        font-size: 2rem;
-        color: #1c3548;
-    }
-    .about-me li {
-        line-height: 1.5rem;
-    }
+    
+    
     .about-me h3 {
         margin-top: 1rem;
     }
