@@ -331,6 +331,18 @@ footer i {
         height: auto;
         margin-top: 1rem;
     }
+    section h2{
+        font-size: 1rem;;
+    }
+
+    .navbar{
+        margin-right: 0;
+    }
+
+    .navbar a{
+        font-size: 0.7rem;
+    }
+
 
   }
 
