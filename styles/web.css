@@ -9,9 +9,10 @@
 
  :root {
     --primary-color: #854220;
-    --button-text-color: #ffffff;
-    --header-text: #adadad;
-    --secondary-color: #cebdb4;
+    --text-color: #ffffff;
+
+    --background:#DBEAFE ;
+    --section-text:#643e28;
 }
 
 
@@ -21,12 +22,12 @@ body {
 
     max-width: 100%;
     margin: auto;
-    background-color:#DBEAFE; ;
+    background-color:var(--background) ;
 }
 
 
 
-/*navbar*/
+/*navbar*/ 
 .brand-name
 {
     font-weight: bold;
@@ -42,11 +43,11 @@ body {
 
 .active {
     font-weight: bold;
-    border-bottom: 0.1rem solid  white;
+    border-bottom: 0.1rem solid  var(--text-color);
 }
 
 .navbar li {
-    display: inline;
+    display: inline-block;
     margin: 0 1rem;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color:  var(--text-color);
     font-size: larger;
 }
 
@@ -73,13 +74,13 @@ a {
 
 .links {
     text-decoration: none;
-    color: var(--button-text-color);
+    color: var(--text-color);
 }
 
 .link-primary {
     padding: 0.6rem 1.2rem;
     background-color: black;
-    color: var(--button-text-color);
+    color: var(--text-color);
     border-radius: 2rem;
 }
 
@@ -126,7 +127,7 @@ ul {
 }
 
 .main-text p {
-    color: #643e28;
+    color: var(--section-text);
     font-size: 1.9rem;
 }
 
@@ -144,27 +145,26 @@ ul {
 /* * about-me */
 
 .about-me {
-    display: flex;
+    
     margin: auto;
-    
-    
-    
+
     max-width: 70%;
     
     margin-bottom: 4rem;
     margin-top: 2rem;
     border: 1px solid var(--primary-color);
     padding: 0.5rem;
-    background-color: white
+   
+    background-color: white;
 }
 
 .about-me-text {
    
-   
+    text-align: center;
     padding: 3rem;
     margin: auto;
     max-width: 90%;
-    text-align: center;
+    
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     padding: 2rem;
@@ -172,7 +172,7 @@ ul {
 
 .about-me-text p {
     font-size: 1.1rem;
-    color: #643e28;
+    color: var(--section-text);
     line-height: 1.3rem;
     
 }
@@ -206,6 +206,7 @@ ul {
 
 .projects p {
     line-height: 1.5rem;
+    color:var(--section-text);
     /* margin-bottom: 2rem; */
 }
 
@@ -235,6 +236,7 @@ ul {
 
 .blogs p {
     line-height: 1.5rem;
+    color:var(--section-text);
 }
 
 .blogs a {
@@ -253,7 +255,7 @@ ul {
 }
 
 .footer h3 {
-    color: #ffffff;
+    color:  var(--text-color);
 }
 
 .footer-list li {
@@ -262,9 +264,9 @@ ul {
 }
 
 footer i {
-    color: white;
+    color:  var(--text-color);
     font-size: 2rem;
-   margin: 1rem;
+    margin: 1rem;
     
 }
 
@@ -291,9 +293,7 @@ footer i {
     }
     
     
-    .about-me h3 {
-        margin-top: 1rem;
-    }
+    
 }
 
 @media only screen and (max-width: 400px) {
