@@ -83,6 +83,9 @@ a {
     color: var(--text-color);
     border-radius: 2rem;
 }
+.links:hover{
+    font-weight: bold;
+}
 
 .link-secondary {
     padding: 0.6rem 1.2rem;
@@ -90,7 +93,10 @@ a {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
-
+.link-secondary:hover{
+    background-color:#854220;
+    color:white;
+}
 
 
 /*list styling*/
@@ -269,7 +275,9 @@ footer i {
     margin: 1rem;
     
 }
-
+footer p{
+    color:var(--text-color);
+}
 
 
 
